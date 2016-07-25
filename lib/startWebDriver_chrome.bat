@@ -1,0 +1,1 @@
+java -jar selenium-server-standalone-2.53.0.jar -role wd -hub http://localhost:4444/grid/register -port 5559  -browser "maxInstances=3,browserName=chrome,platform=WINDOWS" -Dwebdriver.chrome.driver="chromedriver.exe"
