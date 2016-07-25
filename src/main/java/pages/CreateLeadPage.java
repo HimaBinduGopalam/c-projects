@@ -4,7 +4,7 @@ import utils.Reporter;
 import wrappers.OpentapsWrappers;
 
 public class CreateLeadPage extends OpentapsWrappers{
-
+	//creating a lead page
 	public CreateLeadPage() {
 		if(!verifyTitle("Create Lead | opentaps CRM"))
 			Reporter.reportStep("This is not CRM Home Page", "FAIL");
